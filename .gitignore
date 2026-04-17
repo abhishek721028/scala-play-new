@@ -1,0 +1,12 @@
+logs
+target
+.bsp
+.metals
+.bloop
+project/metals.sbt
+project/project
+project/target
+**/target
+.idea
+*.iml
+.DS_Store

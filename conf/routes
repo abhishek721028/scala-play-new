@@ -1,0 +1,7 @@
+GET     /                           controllers.LibraryController.index
+
+POST    /api/authors                controllers.LibraryController.addAuthor
+POST    /api/books                  controllers.LibraryController.addBook
+GET     /api/authors/:authorId/books controllers.LibraryController.booksByAuthor(authorId: String)
+GET     /api/books/:id              controllers.LibraryController.bookById(id: String)
+GET     /api/books                  controllers.LibraryController.allBooks
